@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&family=Nova+Square&family=Titillium+Web:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#recommend-tag .radio {
+    display: inline;
+}
+
+#check input,
+#container select,
+textarea {
+    display: block;
+}
+
+#container {
+    background-color: rgba(100, 148, 237, 0.487);
+    padding: 2em;
+}
+
+#container label {
+    font-size: 1.5em;
+}
+
+#container input {
+    padding: 0.5em;
+    margin: 1em 0;
+    border-radius: 0.4em;
+    color: grey;
+}
+
+#container select,
+#container textarea {
+    margin: 1em 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+/* survey form */
+#basic-details input,
+#features-tag select,
+#current-role select {
+    width: 90%;
+}
+
+#textarea {
+    border-radius: 0.4em;
+    color: grey;
+}
+
+#submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    font-size: large;
+    border-radius: 0.4em;
+    padding: 0.5em;
+    width: 80%;
+    background-color: #37af65cb;
+    color: white;
+}
